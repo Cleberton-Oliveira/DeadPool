@@ -1,0 +1,47 @@
+body {
+ background-image: url("deadpool-wallpaper.jpg");
+ }
+
+ body2 {
+ background-color: black;
+ }
+
+p{	
+	text-indent: 30px;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+
+}
+h2{
+	text-indent: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	text-align: justify;
+}
+
+#topo{
+
+	font-family: Rogue Hero;
+	text-shadow: 4px 3px black;
+	font-size: 50px;
+	color: white;
+
+}
+
+#botao{
+	
+	width: 780px;
+	color: white;
+	font-family: Rogue Hero;
+	text-shadow: 2px 3px black;
+	font-size: 29px;
+	background: red;
+
+
+}
+
+#imagem{
+	width: 2000px;
+}
