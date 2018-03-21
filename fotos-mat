@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang= "pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Video</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/jquery-ui.css"/>
+		<script type="text/javascript"  src="js/materialize.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/materialize.css">
+		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--                                                      -->
+		<link rel="stylesheet" type="text/css" href="css/stilo-mat.css"/>	
+		<script type="text/javascript" src="js/function-mat.js"></script>
+	</head>
+	<body2>
+   	 <div class="navbar-fixed">
+	  <nav class="red accent-4">
+	    
+	    <div class="nav-wrapper ">
+	      
+	      <a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/index-Mat.html" class="brand-logo center" id= "topo" >DeadPool</a>
+	      <a href="#" data-activates="menu-mobile" class="button-collapse rigth">
+	      	<i class ="material-icons">menu</i>
+	      </a>
+	      
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/index-Mat.html"> Home </a></li>
+	        <li class="active"><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/fotos-mat"> Fotos </a></li>
+	        <li ><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/filme-2-mat.html"> Filme 2 </a></li>
+	        <li><a href="#"> Quem Somos? </a></li>
+	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/Fale-Conosco-Mat.html"> Contato</a></li>
+	      </ul>
+	    
+	  	  </div>
+	  </nav>
+
+	   <ul id="menu-mobile" class="side-nav">
+	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/index-Mat.html"> Home </a></li>
+	        <li><a href="#"> Fotos </a></li>
+	        <li class="active"><a href="#"> Filme 2 </a></li>
+	        <li><a href="#"> Quem Somos? </a></li>
+	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/Fale-Conosco-Mat.html"> Contato</a></li>
+	      </ul>	
+
+	    </div>
+	
+<!--                                                          --> 
+
+		<br></br>
+<div class="row" >
+
+<div class="col l1">   
+<button class = "prev">Anterior</button>
+</div>
+<div class="col l10 s12 ">   
+
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="imagens/img1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="imagens/img2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="imagens/img3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="imagens/img4.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="imagens/img5.jpg"></a>
+  </div>
+  </div>
+
+ <div class="col l1 "> 
+<button class = "next">Proximo</button>
+</div>
+\</div>
+
+<!--                                                      -->
+
+	<div class="parallax-container">
+      <div class="parallax"><img src="imagens/Deadpool-4.jpg"></div>
+    </div>	
+<footer class="page-footer red accent-4" >
+              <div class="col l12">
+              <div class="container "> © 2018 Todos os direitos Reservados<a class="grey-text text-lighten-4 right " href="#!">Mais Links</a>
+            </div>
+          </div>
+        </footer>
+            
+	</body>
+</html>
