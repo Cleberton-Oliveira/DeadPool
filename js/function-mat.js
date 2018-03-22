@@ -16,10 +16,16 @@ $(document).ready(function(){
 	$(".button-collapse").sideNav();
 	
 	$('.parallax').parallax();
-   
+    
+	
+//------------------------------------------------------------
+//Carousel
+
 	$('.carousel').carousel({
 		fullWidth: true
 	});
+
+// Proxima / Anterior 
 
 	$('.next').click(function(){
 		$('.carousel').carousel('next');
@@ -37,13 +43,9 @@ $(document).ready(function(){
 	
 	$('.modal')
 	.html("<strong> A mensagem: </strong>" + mensagem + "<strong> do Sr.(a) </strong>" + nome + " <strong> foi enviada a deadpool@gmail.com </strong>");
-
-
-	
 	});
 
  	$('.modal').modal();
-
 });
 
 

@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang= "pt-br">
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Video</title>
+		<title>Home</title>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery-ui.js"></script>
 		<link rel="stylesheet" type="text/css" href="js/jquery-ui.css"/>
@@ -15,78 +14,89 @@
 		<script type="text/javascript" src="js/function-mat.js"></script>
 	</head>
 	<body>
-  
-  <!--                                                      -->
 
-  	
-	  <nav class="red accent-4">
+  <!--                     CABEÇALHO                       -->
+	 
+
+	<nav class="red accent-4">
 	    
-	    <div class="nav-wrapper ">
+	<div class="nav-wrapper ">
 	      
-	      <a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/index-Mat.html" class="brand-logo center" id= "topo" >DeadPool</a>
+	      <a href="file:///home/cleberton/Desktop/deadpool-git/index-Mat.html" class="brand-logo center" id= "topo" >DeadPool</a>
 	      <a href="#" data-activates="menu-mobile" class="button-collapse rigth">
 	      	<i class ="material-icons">menu</i>
 	      </a>
 	      
-	      <ul id="nav-mobile" class="right hide-on-med-and-down">
-	        <li class="active"><a href="#"> Home </a></li>
-	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/fotos-mat"> Fotos </a></li>
-	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/filme-2-mat.html"> Filme 2 </a></li>
+	    <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li class="active" ><a href="file:///home/cleberton/Desktop/deadpool-git/index-Mat.html"> Home </a></li>
+	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/fotos-mat.html"> Fotos </a></li>
+	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/filme-2-mat.html"> Filme 2 </a></li>
 	        <li><a href="#"> Quem Somos? </a></li>
-	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/Fale-Conosco-Mat.html"> Contato</a></li>
-	      </ul>
+	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/Fale-Conosco-Mat.html"> Contato</a></li>
+	    </ul>
 	    
 	    <ul id="menu-mobile" class="side-nav">
-	        <li class="active"><a href="#"> Home </a></li>
-	        <li><a href="#"> Fotos </a></li>
-	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/filme-2-mat.html"> Filme 2 </a></li>
+	        <li class="active" ><a href= "file:///home/cleberton/Desktop/deadpool-git/index-Mat.html"> Home </a></li>
+	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/fotos-mat.html"> Fotos </a></li>
+	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/filme-2-mat.html"> Filme 2 </a></li>
 	        <li><a href="#"> Quem Somos? </a></li>
-	        <li><a href="file:///home/cleberton/Desktop/DeadPool%20-%20Com%20Materilize/Fale-Conosco-Mat.html"> Contato</a></li>
-	      </ul>	
+	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/Fale-Conosco-Mat.html"> Contato</a></li>
+	    </ul>	
+	
+	</div>
+	</nav>
+				
+	
+<!--        CORPO DA PAGINA                -->	
 
-	    </div>
-	  </nav>
-	
-<!--                                                          --> 
-	
-	<div class="row" >
-		<div class="col l2 push-l1"> 	
-				<p><i>Novo Trailer:</i></p>
-				<div class="botoes-jq">
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>	
-				<br></br>
-				<br></br>
-				<button id= "play" class="btn-floating  waves-effect waves-light red accent-4"> <i class="material-icons">play_arrow</i> </button>
-				<br></br>
-				<button id= "pause" class="btn-floating  waves-effect waves-light red accent-4"> <i class="material-icons">pause</i></button>
-				<br></br>
-				<button id= "stop" class="btn-floating  waves-effect waves-light red accent-4"><i class="material-icons">stop</i></button>
-			</div>	
+		
+
+
+		<div class="row" >
+			<div class="col l11 push-l1 s7 push-s5"> 	
+				<p>Novo Trailer:</p>
 			</div>
-				<div class="col l9 "> 	
-				<br></br>
-				<br></br>
+		</div>	
+
+
+		<div class="row" >
+			<div class="col l1  s1"> 	
+			 	<div class="botoes-jq">
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<button id= "play" class="btn-floating  waves-effect waves-light red accent-4"> <i class="material-icons">play_arrow</i> </button>
+					<br></br>
+					<button id= "pause" class="btn-floating  waves-effect waves-light red accent-4"> <i class="material-icons">pause</i></button>
+					<br></br>
+					<button id= "stop" class="btn-floating  waves-effect waves-light red accent-4"><i class="material-icons">stop</i></button>
+				</div>
+			</div>	
+			<div class="col l11  s10"> 	
+					
 				<video class="responsive-video" id = "video">
-				<source src="videos/Deadpool2-Trailer_Legendado_Deadpool_Conhec_Cable.mp4" type="video/mp4">
+					<source src="videos/Deadpool2-Trailer_Legendado_Deadpool_Conhec_Cable.mp4" type="video/mp4">
 				</video>
 			</div>
-			</div>
+		</div>
 
-			<div class="parallax-container">
+	
+
+	
+
+<!--        RODAPE DA PAGINA           --> 
+	<div class="parallax-container">
       <div class="parallax"><img src="imagens/Deadpool-4.jpg"></div>
     </div>	
-
-			<footer class="page-footer red accent-4" >
+    <footer class="page-footer red accent-4" >
               <div class="col l12">
-              <div class="container "> © 2018 Todos os direitos Reservados<a class="grey-text text-lighten-4 right " href="#!">Mais Links</a>
+              <div class="container ">© 2018 Todos os direitos Reservados<a class="grey-text text-lighten-4 right " href="#!">Mais Links</a>
             </div>
           </div>
         </footer>
-            
+
+
 	</body>
-</html>
+</html>	
  
