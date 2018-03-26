@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	
 	$('#play').click(function(){
@@ -11,6 +12,18 @@ $(document).ready(function(){
   		document.getElementsByTagName('video')[0].pause();
 	});				
 
+//-------Dispositivo Mobile-----------------------------------
+
+	$('#play2').click(function(){
+		$("#video").trigger('play');
+	});
+	$('#pause2').click(function(){
+		$("#video").trigger('pause');
+	});
+	$('#stop2').click(function(){
+		document.getElementsByTagName('video')[0].currentTime = 0;
+  		document.getElementsByTagName('video')[0].pause();
+	});	
 //------------------------------------------------------------	
 
 	$(".button-collapse").sideNav();

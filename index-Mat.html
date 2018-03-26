@@ -8,7 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="js/jquery-ui.css"/>
 		<script type="text/javascript"  src="js/materialize.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/materialize.css">
-		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		 <!--Let browser know website is optimized for mobile-->
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<!--                                                      -->
 		<link rel="stylesheet" type="text/css" href="css/stilo-mat.css"/>	
 		<script type="text/javascript" src="js/function-mat.js"></script>
@@ -18,16 +20,15 @@
   <!--                     CABEÇALHO                       -->
 	 
 
-	<nav class="red accent-4">
-	    
+	<nav class="red accent-4">   
 	<div class="nav-wrapper ">
 	      
 	      <a href="file:///home/cleberton/Desktop/deadpool-git/index-Mat.html" class="brand-logo center" id= "topo" >DeadPool</a>
 	      <a href="#" data-activates="menu-mobile" class="button-collapse rigth">
-	      	<i class ="material-icons">menu</i>
+	      <i class ="material-icons">menu</i>
+	     
 	      </a>
-	      
-	    <ul id="nav-mobile" class="right hide-on-med-and-down">
+	     	<ul id="nav-mobile" class="right hide-on-med-and-down">
 	        <li class="active" ><a href="file:///home/cleberton/Desktop/deadpool-git/index-Mat.html"> Home </a></li>
 	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/fotos-mat.html"> Fotos </a></li>
 	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/filme-2-mat.html"> Filme 2 </a></li>
@@ -35,6 +36,7 @@
 	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/Fale-Conosco-Mat.html"> Contato</a></li>
 	    </ul>
 	    
+
 	    <ul id="menu-mobile" class="side-nav">
 	        <li class="active" ><a href= "file:///home/cleberton/Desktop/deadpool-git/index-Mat.html"> Home </a></li>
 	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/fotos-mat.html"> Fotos </a></li>
@@ -42,7 +44,8 @@
 	        <li><a href="#"> Quem Somos? </a></li>
 	        <li><a href="file:///home/cleberton/Desktop/deadpool-git/Fale-Conosco-Mat.html"> Contato</a></li>
 	    </ul>	
-	
+	 
+
 	</div>
 	</nav>
 				
@@ -52,16 +55,21 @@
 		
 
 
-		<div class="row" >
-			<div class="col l11 push-l1 s7 push-s5"> 	
+
+			<center>
 				<p>Novo Trailer:</p>
-			</div>
-		</div>	
-
-
+			</center>
+	
+	<!-- Para dispositivos de telas maiores -->
 		<div class="row" >
-			<div class="col l1  s1"> 	
-			 	<div class="botoes-jq">
+			<div class="col l1 hide-on-small-only"> 	
+			 	<div class="botoes-jq right-align">
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
 					<br></br>
 					<br></br>
 					<br></br>
@@ -73,12 +81,30 @@
 					<button id= "stop" class="btn-floating  waves-effect waves-light red accent-4"><i class="material-icons">stop</i></button>
 				</div>
 			</div>	
-			<div class="col l11  s10"> 	
+			
+
+				<div class="col l10  s12 "> 	
+					<video class="responsive-video" id = "video">
+						<source src="videos/Deadpool2-Trailer_Legendado_Deadpool_Conhec_Cable.mp4" type="video/mp4">
+					</video>
+				</div>
+
+		
+			<!-- Para dispositivos de telas mobile -->
+
+			<div class="col s12 hide-on-med-and-up"> 	
+			 	<div class="botoes-jq2 right-align">
 					
-				<video class="responsive-video" id = "video">
-					<source src="videos/Deadpool2-Trailer_Legendado_Deadpool_Conhec_Cable.mp4" type="video/mp4">
-				</video>
-			</div>
+					<button id= "play2" class="btn-floating  waves-effect waves-light red accent-4"> <i class="material-icons">play_arrow</i> </button>
+				
+					<button id= "pause2" class="btn-floating  waves-effect waves-light red accent-4"> <i class="material-icons">pause</i></button>
+					
+					<button id= "stop2" class="btn-floating  waves-effect waves-light red accent-4"><i class="material-icons">stop</i></button>
+				</div>
+			</div>			
+
+
+
 		</div>
 
 	
